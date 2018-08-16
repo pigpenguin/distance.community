@@ -1,0 +1,311 @@
+/*fonts*/
+@font-face {
+	font-family: Bebas Neue;
+	src: url(fonts/BebasNeue.otf);
+}
+
+@font-face {
+	font-family: Petita Bold;
+	src: url(fonts/PetitaBold.ttf);
+}
+
+@font-face {
+	font-family: Petita Medium;
+	src: url(fonts/PetitaMedium.ttf);
+}
+
+@font-face {
+	font-family: Petita Light;
+	src: url(fonts/PetitaLight.ttf);
+}
+
+/*general stuff*/
+body {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	line-height: 140%;
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	font-family: 'Bebas Neue';
+	font-weight: lighter;
+	font-size: 50px;
+	line-height: 140%;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-top: 10px;
+}
+
+.header {
+	width: 512px;
+  margin-top: 64px;
+	margin-left: auto;
+	margin-right: auto;
+  position: relative;
+}
+
+.header h1 {
+    color: black;
+	  font-family: 'Bebas Neue';
+	  font-weight: lighter;
+	  font-size: 50px;
+	  line-height: 140%;
+	  text-align: center;
+	  margin-bottom: 0px;
+}
+
+/*navigation bar*/
+.nav {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: background-color 0.1s;
+}
+
+.nav a {
+	display: inline-block;
+	width: 24%;
+	color: inherit;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+
+.nav a:hover {
+	background-color: #02324E;
+}
+
+/*mini navigation bar*/
+.mininav {
+	font-size: 18px;
+	color: #555555;
+	text-align: center;
+	margin-bottom: 20px;
+	transition: color 0.1s;
+}
+
+.mininav:hover {
+	color: #888888;
+}
+
+.mininav a {
+	color: inherit;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.mininav a:hover {
+	color: #FFFFFF;
+}
+
+/*main content*/
+.main-content {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section {
+	width: 850px;
+	background-color: #02324E;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+.infobox {
+	background-color: #046299;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+/*arranging images*/
+.left-image img {
+	float: left;
+	width: 20%;
+	margin-right: 10px;
+}
+
+.left-image-separator {
+	clear: left;
+	padding: 10px;
+}
+
+.big-image {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.big-image img {
+	max-width: 800px;
+}
+
+.big-image a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.directory{
+    width: 512px;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directory ul{
+    list-style: none;
+    text-align: center;
+}
+
+.directory li{
+	  font-family: 'Bebas Neue';
+	  font-weight: lighter;
+	  font-size: 50px;
+	  line-height: 140%;
+}
+
+.directory a{
+    color: white;
+}
+
+.directory a:visited{
+    color: white;
+}
+
+@keyframes banner-anim-1 {
+  0% {
+    clip: rect(317px, 512px, 55px, 0);
+  }
+  6.66667% {
+    clip: rect(83px, 512px, 222px, 0);
+  }
+  13.33333% {
+    clip: rect(132px, 512px, 28px, 0);
+  }
+  20% {
+    clip: rect(27px, 512px, 302px, 0);
+  }
+  26.66667% {
+    clip: rect(409px, 512px, 393px, 0);
+  }
+  33.33333% {
+    clip: rect(67px, 512px, 49px, 0);
+  }
+  40% {
+    clip: rect(324px, 512px, 158px, 0);
+  }
+  46.66667% {
+    clip: rect(415px, 512px, 196px, 0);
+  }
+  53.33333% {
+    clip: rect(58px, 512px, 322px, 0);
+  }
+  60% {
+    clip: rect(413px, 512px, 91px, 0);
+  }
+  66.66667% {
+    clip: rect(380px, 512px, 192px, 0);
+  }
+  73.33333% {
+    clip: rect(45px, 512px, 352px, 0);
+  }
+  80% {
+    clip: rect(365px, 512px, 303px, 0);
+  }
+  86.66667% {
+    clip: rect(398px, 512px, 178px, 0);
+  }
+  93.33333% {
+    clip: rect(158px, 512px, 201px, 0);
+  }
+  100% {
+    clip: rect(92px, 512px, 417px, 0);
+  }
+}
+@keyframes banner-anim-2 {
+  0% {
+    clip: rect(285px, 512px, 342px, 0);
+  }
+  6.66667% {
+    clip: rect(308px, 512px, 133px, 0);
+  }
+  13.33333% {
+    clip: rect(162px, 512px, 162px, 0);
+  }
+  20% {
+    clip: rect(57px, 512px, 228px, 0);
+  }
+  26.66667% {
+    clip: rect(351px, 512px, 16px, 0);
+  }
+  33.33333% {
+    clip: rect(227px, 512px, 264px, 0);
+  }
+  40% {
+    clip: rect(132px, 512px, 78px, 0);
+  }
+  46.66667% {
+    clip: rect(233px, 512px, 62px, 0);
+  }
+  53.33333% {
+    clip: rect(298px, 512px, 238px, 0);
+  }
+  60% {
+    clip: rect(134px, 512px, 132px, 0);
+  }
+  66.66667% {
+    clip: rect(342px, 512px, 87px, 0);
+  }
+  73.33333% {
+    clip: rect(333px, 512px, 295px, 0);
+  }
+  80% {
+    clip: rect(245px, 512px, 81px, 0);
+  }
+  86.66667% {
+    clip: rect(204px, 512px, 415px, 0);
+  }
+  93.33333% {
+    clip: rect(25px, 512px, 294px, 0);
+  }
+  100% {
+    clip: rect(85px, 512px, 372px, 0);
+  }
+}
+.banner > img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.banner > img:nth-child(2),
+.banner > img:nth-child(3) {
+  clip: rect(0, 0, 0, 0);
+}
+.banner > img:nth-child(2) {
+  left: 2px;
+  animation: banner-anim-1 2s infinite linear alternate-reverse;
+}
+.banner > img:nth-child(3) {
+  left: -2px;
+  animation: banner-anim-2 3s infinite linear alternate-reverse;
+}
